@@ -53,6 +53,11 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="modelo\carrera.cs" />
+    <Compile Include="modelo\championshift\arbitro.cs" />
+    <Compile Include="modelo\championshift\cancha.cs" />
+    <Compile Include="modelo\championshift\equipo.cs" />
+    <Compile Include="modelo\championshift\jugador.cs" />
+    <Compile Include="modelo\championshift\persona.cs" />
     <Compile Include="modelo\estudiante.cs" />
     <Compile Include="modelo\facilitador.cs" />
     <Compile Include="Program.cs" />
