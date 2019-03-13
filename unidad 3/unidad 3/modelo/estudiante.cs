@@ -24,6 +24,6 @@ namespace Actividad_de_clase.modelo
         {
             return;
         }
-        public void HacerTarea(string tema)
+        //public void (string tema)
     }
 }

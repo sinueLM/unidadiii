@@ -1,4 +1,4 @@
-﻿namespace unidad_3
+﻿namespace Actividad_de_clase
 {
     partial class Form1
     {

@@ -8,16 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Actividad_de_clase
+namespace unidad_3.vista
 {
-    public partial class Form1 : Form
+    public partial class Formcampeonato : Form
     {
-        public Form1()
+        public Formcampeonato()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
