@@ -58,6 +58,12 @@
     <Compile Include="modelo\championshift\equipo.cs" />
     <Compile Include="modelo\championshift\jugador.cs" />
     <Compile Include="modelo\championshift\persona.cs" />
+    <Compile Include="modelo\cinema\asiento.cs" />
+    <Compile Include="modelo\cinema\Cliente.cs" />
+    <Compile Include="modelo\cinema\pelicula.cs" />
+    <Compile Include="modelo\cinema\persona.cs" />
+    <Compile Include="modelo\cinema\sala.cs" />
+    <Compile Include="modelo\cinema\Taquillero.cs" />
     <Compile Include="modelo\estudiante.cs" />
     <Compile Include="modelo\facilitador.cs" />
     <Compile Include="Program.cs" />
