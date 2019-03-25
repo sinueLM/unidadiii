@@ -56,6 +56,12 @@
     <Compile Include="modelo\championshift\arbitro.cs" />
     <Compile Include="modelo\championshift\cancha.cs" />
     <Compile Include="modelo\championshift\equipo.cs" />
+    <Compile Include="modelo\championshift\Formcampeonato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modelo\championshift\Formcampeonato.Designer.cs">
+      <DependentUpon>Formcampeonato.cs</DependentUpon>
+    </Compile>
     <Compile Include="modelo\championshift\jugador.cs" />
     <Compile Include="modelo\championshift\persona.cs" />
     <Compile Include="modelo\cinema\asiento.cs" />
@@ -88,6 +94,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modelo\championshift\Formcampeonato.resx">
+      <DependentUpon>Formcampeonato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
