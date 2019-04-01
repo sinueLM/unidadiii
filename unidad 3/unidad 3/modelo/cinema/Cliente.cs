@@ -12,7 +12,7 @@ namespace unidad_3.modelo.cinema
 
         public Cliente() : base()
         {
-            _celular = "4181102345"
+            _celular = "4181102345";
         }
         public string Celular
         {

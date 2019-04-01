@@ -36,5 +36,11 @@ namespace unidad_3.vista
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LigaFutbol.formaCampeonato.Show();
+            Hide();
+        }
     }
 }

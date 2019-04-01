@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using unidad_3.vista;
-namespace unidad_3
+using LigaFutbol.vista;
+namespace LigaFutbol.vista
 {
     static class Program
     {
+        public static FormaCampeonato formaCampeonato = null;
+        public static Principal formaPrincipal = null;
+    
         
         /// <summary>
         /// The main entry point for the application.
@@ -17,7 +20,10 @@ namespace unidad_3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            formaPrincipaL = new Principal();
+            formCampeonato = new FormaCampeonato();
+            
+            Application.Run(formaPrincipal);
         }
     }
 }
