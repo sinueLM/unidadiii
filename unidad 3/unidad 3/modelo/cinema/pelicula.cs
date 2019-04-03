@@ -14,6 +14,8 @@ namespace unidad_3.modelo.cinema
         private string _clasificacion;
         private string _resumen;
 
-        public pelicula();
+        public pelicula()
+        {
+        }
     }
 }

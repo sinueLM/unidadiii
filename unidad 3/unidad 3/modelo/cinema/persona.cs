@@ -44,7 +44,7 @@ namespace unidad_3.modelo.cinema
             }
             set
             {
-                if (value.Length >= 3 && value.Length < = 30)
+                if (value.Length >= 3 && value.Length <= 30)
                     _nombre = value;
             }
         }

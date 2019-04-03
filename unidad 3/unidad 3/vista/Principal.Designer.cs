@@ -64,7 +64,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.tableLayoutPanel1);
-            this.splitContainer1.Size = new System.Drawing.Size(1417, 427);
+            this.splitContainer1.Size = new System.Drawing.Size(1370, 427);
             this.splitContainer1.SplitterDistance = 153;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -76,14 +76,14 @@
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1417, 153);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1370, 153);
             this.flowLayoutPanel1.TabIndex = 1;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1269, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(1222, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(145, 115);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -93,7 +93,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(384, 0);
+            this.label2.Location = new System.Drawing.Point(337, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(879, 153);
             this.label2.TabIndex = 1;
@@ -129,7 +129,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 48.27586F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 142F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1417, 270);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1370, 270);
             this.tableLayoutPanel1.TabIndex = 1;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
@@ -140,7 +140,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(1283, 39);
+            this.button1.Size = new System.Drawing.Size(1240, 39);
             this.button1.TabIndex = 0;
             this.button1.Text = "campeonatos";
             this.button1.UseVisualStyleBackColor = false;
@@ -153,7 +153,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(3, 48);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(1283, 36);
+            this.button2.Size = new System.Drawing.Size(1240, 36);
             this.button2.TabIndex = 1;
             this.button2.Text = "jornadas";
             this.button2.UseVisualStyleBackColor = false;
@@ -165,7 +165,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(3, 90);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(1283, 34);
+            this.button3.Size = new System.Drawing.Size(1240, 34);
             this.button3.TabIndex = 0;
             this.button3.Text = "partidos";
             this.button3.UseVisualStyleBackColor = false;
@@ -174,9 +174,9 @@
             // 
             this.pictureexit.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureexit.Image = ((System.Drawing.Image)(resources.GetObject("pictureexit.Image")));
-            this.pictureexit.Location = new System.Drawing.Point(1292, 130);
+            this.pictureexit.Location = new System.Drawing.Point(1249, 130);
             this.pictureexit.Name = "pictureexit";
-            this.pictureexit.Size = new System.Drawing.Size(122, 137);
+            this.pictureexit.Size = new System.Drawing.Size(118, 137);
             this.pictureexit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureexit.TabIndex = 2;
             this.pictureexit.TabStop = false;
@@ -186,7 +186,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1417, 427);
+            this.ClientSize = new System.Drawing.Size(1370, 427);
             this.ControlBox = false;
             this.Controls.Add(this.splitContainer1);
             this.Name = "Form1";

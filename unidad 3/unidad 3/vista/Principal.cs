@@ -39,7 +39,7 @@ namespace unidad_3.vista
 
         private void button1_Click(object sender, EventArgs e)
         {
-            LigaFutbol.formaCampeonato.Show();
+            LigaFutbol.vista.Program.formaCampeonato.Show();
             Hide();
         }
     }
